@@ -3,6 +3,8 @@ from models import MODELS
 
 HELP = """
 ● Send a Prompt , Reply /generate to the Prompt to start Image Generation
+● Take note the more you increase the steps image will take time but image will be more good if you decrease
+it the image will be bad.
 """
 
 START_STRING = """ **Hello {}, I'm Text to Image bot**
