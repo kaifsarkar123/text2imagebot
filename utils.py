@@ -8,28 +8,20 @@ HELP = """
 START_STRING = """ **Hello {}, I'm Text to Image bot**
 Capable of running all Large image Generation Models from huggingface.
 
-`Join My Updates Channel for Getting more familiar with me`
-
 """
 
 ABOUT = """
-● **AUTHOR :** [bughunter0](https://t.me/bughunter0) 
+● **AUTHOR :** [Kaif Sarkar](https://t.me/kaifsarkar53) 
 ● **LIBRARY :** `Pyrogram` 
 ● **LANGUAGE :** `Python 3.10` 
-● **SOURCE :** [BugHunterBots](https://github.com/nuhmanpk) 
+● **Developer:** [BugHunterBots](https://t.me/kaifsarkar53) 
 """
 
-GITHUB_LINK = 'https://github.com/nuhmanpk/text2imagebot'
+GITHUB_LINK = 'https://t.me/kaifsarkar53'
 
 CHANNEL_BUTTON = InlineKeyboardMarkup(
     [[
         InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/BughunterBots')
-    ]]
-)
-
-GITHUB_BUTTON = InlineKeyboardMarkup(
-    [[
-        InlineKeyboardButton('↗ Source Code ↗', url=GITHUB_LINK)
     ]]
 )
 
@@ -43,7 +35,7 @@ START_BUTTON = InlineKeyboardMarkup(
      ,
         [
         InlineKeyboardButton(
-            '↗ Join Here ↗', url='https://t.me/BughunterBots'),
+            '↗ Developer↗', url='https://t.me/kaifsarkar53'),
     ]]
 
 )
