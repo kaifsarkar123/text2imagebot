@@ -3,12 +3,12 @@ from models import MODELS
 
 HELP = """
 ● Send a Prompt , Reply /generate to the Prompt to start Image Generation
-● Take note the more you increase the steps image will take time but image will be more good if you decrease
-it the image will be bad.
 """
 
 START_STRING = """ **Hello {}, I'm Text to Image bot**
 Capable of running all Large image Generation Models from huggingface.
+
+`Join My Updates Channel for Getting more familiar with me`
 
 """
 
@@ -16,14 +16,20 @@ ABOUT = """
 ● **AUTHOR :** [Kaif Sarkar](https://t.me/kaifsarkar53) 
 ● **LIBRARY :** `Pyrogram` 
 ● **LANGUAGE :** `Python 3.10` 
-● **Developer:** [BugHunterBots](https://t.me/kaifsarkar53) 
+● **Developer :** [](https://t.me/kaifsarkar53) 
 """
 
 GITHUB_LINK = 'https://t.me/kaifsarkar53'
 
 CHANNEL_BUTTON = InlineKeyboardMarkup(
     [[
-        InlineKeyboardButton('↗ Join Here ↗', url='https://t.me/BughunterBots')
+        InlineKeyboardButton('↗ Support ↗', url='https://t.me/kaifsarkar53')
+    ]]
+)
+
+GITHUB_BUTTON = InlineKeyboardMarkup(
+    [[
+        InlineKeyboardButton('↗ Developer ↗', url=GITHUB_LINK)
     ]]
 )
 
@@ -37,7 +43,7 @@ START_BUTTON = InlineKeyboardMarkup(
      ,
         [
         InlineKeyboardButton(
-            '↗ Developer↗', url='https://t.me/kaifsarkar53'),
+            '↗ Join Here ↗', url='https://t.me/BughunterBots'),
     ]]
 
 )
