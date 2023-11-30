@@ -8,7 +8,7 @@ HELP = """
 START_STRING = """ **Hello {}, I'm Text to Image bot**
 Capable of running all Large image Generation Models from huggingface.
 
-`Join My Updates Channel for Getting more familiar with me`
+`Support our project to help us`
 
 """
 
@@ -43,7 +43,7 @@ START_BUTTON = InlineKeyboardMarkup(
      ,
         [
         InlineKeyboardButton(
-            '↗ Join Here ↗', url='https://t.me/BughunterBots'),
+            '↗ Support ↗', url='https://t.me/kaifsarkar53),
     ]]
 
 )
